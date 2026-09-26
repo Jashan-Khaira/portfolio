@@ -1,51 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Security Lab Gallery — Blog Illustrations</title>
-<meta name="description" content="Illustrations from my hands-on cybersecurity lab tutorials on Medium.">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jashanpreet Singh — Network Security Engineer</title>
+  <meta name="description" content="Portfolio of Jashanpreet Singh, Network Security Engineer in Toronto. Palo Alto firewalls, AlgoSec & FireFlow automation, Azure cloud security, and hands-on SOC lab notes published daily.">
+  <meta property="og:title" content="Jashanpreet Singh — Network Security Engineer">
+  <meta property="og:description" content="Network security, cloud security, and hands-on SOC labs. Based in Toronto, Canada.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b0f17'/><path d='M50 15l25 14v20c0 16-10.5 27-25 36-14.5-9-25-20-25-36V29z' fill='none' stroke='%2338bdf8' stroke-width='7'/><path d='M38 51l8 8 16-17' fill='none' stroke='%2338bdf8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 </head>
 <body>
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark">JS</span>
+        <span class="brand-text">Jashanpreet Singh</span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Lab Notes</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-<header class="hero">
-  <div class="hero-inner">
-    <p class="kicker">Medium Blog Artwork</p>
-    <h1>Security Lab Gallery</h1>
-    <p class="sub">Every illustration from my hands-on security lab tutorials — architectures, workflows, and step-by-step shots.</p>
-  </div>
-  <div class="hero-fade"></div>
-</header>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow"><span class="pulse"></span>Network Security Engineer · Toronto, Canada</p>
+        <h1>Jashanpreet Singh</h1>
+        <p class="hero-sub">I secure enterprise networks and cloud infrastructure — from <strong>Palo Alto firewalls</strong> and <strong>AlgoSec / FireFlow</strong> policy automation to <strong>Azure</strong> cloud security and <strong>SOC operations</strong>.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#blog">Explore my lab notes</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/jashanpreet-singh1999" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+          </a>
+          <a href="https://github.com/Jashan-Khaira" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="https://medium.com/@jashankhaira52" target="_blank" rel="noopener" aria-label="Medium">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42zM24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+          </a>
+          <a href="mailto:jashankhaira52@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about" aria-label="Scroll to about"><span></span></a>
+    </section>
 
-<main>
-  <section class="gallery-head">
-    <h2>Gallery</h2>
-    <p id="count"></p>
-  </section>
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-title">Security engineer by day,<br>lab builder by night.</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a Network Security Engineer at <strong>OMERS</strong> in Toronto with 3+ years of experience protecting enterprise networks. My day-to-day centers on Palo Alto next-generation firewalls, AlgoSec and FireFlow policy automation, and Azure cloud security.</p>
+            <p>Beyond the day job, I'm deep into SOC operations and blue-team craft — building hands-on labs, documenting detections, and publishing a <strong>new step-by-step lab on Medium every day</strong>. I'm currently working toward SOC analyst roles and advanced cloud security.</p>
+            <p class="about-note">Ask me about network security, cloud security, or breaking into cybersecurity.</p>
+          </div>
+          <div class="stats">
+            <div class="stat"><span class="stat-num" data-count="3" data-suffix="+">3+</span><span class="stat-label">Years in network security</span></div>
+            <div class="stat"><span class="stat-num" data-count="8">8</span><span class="stat-label">Industry certifications</span></div>
+            <div class="stat"><span class="stat-num" data-count="40" data-suffix="+">40+</span><span class="stat-label">Hands-on labs published</span></div>
+            <div class="stat"><span class="stat-num" data-count="500" data-suffix="+">500+</span><span class="stat-label">Readers on Medium</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="gallery" class="grid" aria-label="Photo gallery"></section>
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <p class="section-eyebrow">Experience</p>
+        <h2 class="section-title">Where I've worked</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>Network Security Engineer</h3>
+                  <p class="timeline-org">OMERS · Toronto, Canada</p>
+                </div>
+                <span class="timeline-date">Present</span>
+              </div>
+              <ul>
+                <li>Administer Palo Alto next-generation firewalls — security policies, NAT, threat prevention, and URL filtering.</li>
+                <li>Run the firewall policy lifecycle with AlgoSec and FireFlow — policy analysis, risk assessment, and automated change workflows.</li>
+                <li>Secure Azure cloud workloads through network segmentation and cloud security posture management.</li>
+                <li>Partner with SOC analysts on detection tuning, incident triage, and response.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Palo Alto</span><span class="tag">AlgoSec</span><span class="tag">FireFlow</span><span class="tag">Azure</span>
+              </div>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <div>
+                  <h3>Cybersecurity Research Assistant</h3>
+                  <p class="timeline-org">Research · Canada</p>
+                </div>
+              </div>
+              <ul>
+                <li>Researched emerging threats and defensive techniques across network and cloud environments.</li>
+                <li>Built lab environments to validate detections and document reproducible attack-defense scenarios.</li>
+              </ul>
+              <div class="tag-row">
+                <span class="tag">Threat Research</span><span class="tag">Lab Engineering</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <div id="empty" class="empty" hidden>
-    <p class="empty-title">Photos are on their way.</p>
-    <p class="empty-sub">This gallery fills up as soon as the first shots land.</p>
-  </div>
-</main>
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-eyebrow">Skills</p>
+        <h2 class="section-title">My toolkit</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Network Security</h3>
+            <div class="tag-row">
+              <span class="tag">Palo Alto Networks</span><span class="tag">Cisco</span><span class="tag">Fortinet</span>
+              <span class="tag">Wireshark</span><span class="tag">Nmap</span><span class="tag">Snort</span>
+              <span class="tag">Suricata</span><span class="tag">Zeek</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Policy &amp; Change Automation</h3>
+            <div class="tag-row">
+              <span class="tag">AlgoSec</span><span class="tag">FireFlow</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Cloud Security</h3>
+            <div class="tag-row">
+              <span class="tag">Microsoft Azure</span><span class="tag">Microsoft Sentinel</span><span class="tag">Terraform</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>SOC &amp; SIEM</h3>
+            <div class="tag-row">
+              <span class="tag">Wazuh</span><span class="tag">Splunk</span><span class="tag">Elastic</span>
+              <span class="tag">LimaCharlie</span><span class="tag">Shuffle SOAR</span><span class="tag">TheHive</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Endpoint &amp; DFIR</h3>
+            <div class="tag-row">
+              <span class="tag">Cortex XDR</span><span class="tag">Defender for Endpoint</span>
+              <span class="tag">Velociraptor</span><span class="tag">Metasploit</span><span class="tag">Burp Suite</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Threat Intel</h3>
+            <div class="tag-row">
+              <span class="tag">MISP</span><span class="tag">Cortex Analyzers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <p>Built on a Railway VM · <span id="year"></span></p>
-</footer>
+    <!-- CERTIFICATIONS -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <p class="section-eyebrow">Certifications</p>
+        <h2 class="section-title">Credentials</h2>
+        <div class="certs-grid">
+          <div class="cert-card reveal"><h3>PCNSE</h3><p>Palo Alto Networks Certified Network Security Engineer</p></div>
+          <div class="cert-card reveal"><h3>CCNA</h3><p>Cisco Certified Network Associate</p></div>
+          <div class="cert-card reveal"><h3>CEH</h3><p>Certified Ethical Hacker · EC-Council</p></div>
+          <div class="cert-card reveal"><h3>Google Cybersecurity</h3><p>Professional Certificate · Google</p></div>
+          <div class="cert-card reveal"><h3>CNSS</h3><p>Certified Network Security Specialist</p></div>
+          <div class="cert-card reveal"><h3>Fortinet NSE 1</h3><p>Network Security Expert · Level 1</p></div>
+          <div class="cert-card reveal"><h3>Fortinet NSE 2</h3><p>Network Security Expert · Level 2</p></div>
+          <div class="cert-card reveal"><h3>Fortinet NSE 3</h3><p>Network Security Expert · Level 3</p></div>
+        </div>
+      </div>
+    </section>
 
-<div id="lightbox" class="lightbox" hidden role="dialog" aria-label="Photo viewer">
-  <button class="lb-close" aria-label="Close">&times;</button>
-  <button class="lb-prev" aria-label="Previous photo">&#10094;</button>
-  <figure>
-    <img id="lb-img" alt="">
-    <figcaption id="lb-cap"></figcaption>
-  </figure>
-  <button class="lb-next" aria-label="Next photo">&#10095;</button>
-</div>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">Labs I've built</h2>
+        <div class="projects-grid">
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/SOC-Automation-Project" target="_blank" rel="noopener">
+            <h3>SOC Automation Project</h3>
+            <p>End-to-end SOC automation lab: SIEM detection engineering, Shuffle SOAR playbooks, and automated alert triage.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/30DAY-SOC-Challenge" target="_blank" rel="noopener">
+            <h3>30-Day SOC Analyst Challenge</h3>
+            <p>A 30-day hands-on SOC program — one lab a day, from log analysis to threat hunting, documented on Medium.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/Wireless-Network-Security" target="_blank" rel="noopener">
+            <h3>Wireless Network Security Lab</h3>
+            <p>Hands-on Wi-Fi security lab: auditing wireless networks, handshake analysis, and rogue access-point detection.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/Incident-Response-Planning-Execution" target="_blank" rel="noopener">
+            <h3>Incident Response Planning &amp; Execution</h3>
+            <p>IR lab: building response plans and executing them end-to-end with TheHive case management.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/Network-Traffic-Monitoring" target="_blank" rel="noopener">
+            <h3>Network Traffic Monitoring</h3>
+            <p>Network monitoring lab: Zeek, Suricata, and Wireshark for traffic analysis and attack detection.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+          <a class="project-card reveal" href="https://github.com/Jashan-Khaira/HelloAzureApp" target="_blank" rel="noopener">
+            <h3>Azure Cloud Deployment Labs</h3>
+            <p>Containerized apps on Azure and AWS with Terraform and CI/CD pipelines — cloud security in practice.</p>
+            <span class="card-link">View on GitHub →</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-<script src="gallery.js"></script>
+    <!-- BLOG -->
+    <section class="section section-alt" id="blog">
+      <div class="container">
+        <p class="section-eyebrow">Lab Notes</p>
+        <h2 class="section-title">Learn with me, one lab at a time</h2>
+        <p class="section-lead">I publish a new step-by-step cybersecurity lab on Medium every day — every one reproducible in your own home lab. Latest entries appear here automatically.</p>
+        <div class="posts-grid" id="posts-grid" aria-live="polite"></div>
+        <div class="blog-more">
+          <a class="btn btn-ghost" href="https://medium.com/@jashankhaira52" target="_blank" rel="noopener">All articles on Medium →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <p class="section-eyebrow">Contact</p>
+        <h2 class="section-title">Let's connect</h2>
+        <p class="section-lead">I'm always up for talking cybersecurity, cloud security, SOC work, or lab ideas. The fastest way to reach me is email.</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:jashankhaira52@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">jashankhaira52@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/jashanpreet-singh1999" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">in/jashanpreet-singh1999</span>
+          </a>
+          <a class="contact-card" href="https://github.com/Jashan-Khaira" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@Jashan-Khaira</span>
+          </a>
+          <a class="contact-card" href="https://medium.com/@jashankhaira52" target="_blank" rel="noopener">
+            <span class="contact-label">Medium</span>
+            <span class="contact-value">@jashankhaira52</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Jashanpreet Singh · Toronto, Canada</p>
+      <p class="footer-note">Network Security Engineer · Palo Alto · Azure · SOC</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
