@@ -1,0 +1,206 @@
+[
+  {
+    "src": "photos/2026-09-20-checkpoint-hero.webp",
+    "caption": "Check Point blog \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-20-checkpoint-attack-flow.webp",
+    "caption": "Check Point blog \u00b7 Attack flow illustration"
+  },
+  {
+    "src": "photos/2026-09-20-checkpoint-defense.webp",
+    "caption": "Check Point blog \u00b7 Defense illustration"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-hero.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-architecture.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Architecture diagram"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-detection.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Detection illustration"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-playbook.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Playbook illustration"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-add-sentinel.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 add sentinel"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-analytics-rule.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 analytics rule"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-automation-rule.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 automation rule"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-entra-connector.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 entra connector"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-incident-view.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 incident view"
+  },
+  {
+    "src": "photos/2026-09-21-sentinel-shot-log-analytics.png",
+    "caption": "Microsoft Sentinel \u2014 Cloud SOC Lab \u00b7 Step illustration \u2014 log analytics"
+  },
+  {
+    "src": "photos/2026-09-22-wazuh-misc.webp",
+    "caption": "Wazuh + Suricata \u2014 Home IDS Lab \u00b7 Illustration"
+  },
+  {
+    "src": "photos/2026-09-22-wazuh-misc-2.webp",
+    "caption": "Wazuh + Suricata \u2014 Home IDS Lab \u00b7 Illustration"
+  },
+  {
+    "src": "photos/2026-09-22-wazuh-misc-3.webp",
+    "caption": "Wazuh + Suricata \u2014 Home IDS Lab \u00b7 Illustration"
+  },
+  {
+    "src": "photos/2026-09-22-wazuh-misc-4.webp",
+    "caption": "Wazuh + Suricata \u2014 Home IDS Lab \u00b7 Illustration"
+  },
+  {
+    "src": "photos/2026-09-23-velociraptor-hero.webp",
+    "caption": "Velociraptor \u2014 DFIR Lab \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-23-velociraptor-architec.webp",
+    "caption": "Velociraptor \u2014 DFIR Lab \u00b7 Architec illustration"
+  },
+  {
+    "src": "photos/2026-09-23-velociraptor-response.webp",
+    "caption": "Velociraptor \u2014 DFIR Lab \u00b7 Response illustration"
+  },
+  {
+    "src": "photos/2026-09-23-velociraptor-vql.webp",
+    "caption": "Velociraptor \u2014 DFIR Lab \u00b7 Vql illustration"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-hero.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-concept.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Concept illustration"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-architecture.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Architecture diagram"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-workflow.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Workflow diagram"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-analyzers.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 analyzers"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-dashboard.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 dashboard"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-login.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 login"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-newcase.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 newcase"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-observables.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 observables"
+  },
+  {
+    "src": "photos/2026-09-24-thehive-shot-report.png",
+    "caption": "TheHive + Cortex \u2014 Incident Response Lab \u00b7 Step illustration \u2014 report"
+  },
+  {
+    "src": "photos/2026-09-25-misp-hero.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-25-misp-concept.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Concept illustration"
+  },
+  {
+    "src": "photos/2026-09-25-misp-workflow.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Workflow diagram"
+  },
+  {
+    "src": "photos/2026-09-25-misp-misc.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Illustration"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-add-event.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 add event"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-add-feed.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 add feed"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-dashboard.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 dashboard"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-event-view.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 event view"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-feeds.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 feeds"
+  },
+  {
+    "src": "photos/2026-09-25-misp-shot-login.png",
+    "caption": "MISP \u2014 Threat Intel Lab \u00b7 Step illustration \u2014 login"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-hero.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Hero illustration"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-concept.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Concept illustration"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-architecture.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Architecture diagram"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-workflow.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Workflow diagram"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-beacon.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 beacon"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-dns.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 dns"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-install.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 install"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-pcap.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 pcap"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-weird.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 weird"
+  },
+  {
+    "src": "photos/2026-09-26-zeek-shot-zeekcut.png",
+    "caption": "Zeek \u2014 Threat Hunting Lab \u00b7 Step illustration \u2014 zeekcut"
+  }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Lab Gallery — Blog Illustrations</title>
+<meta name="description" content="Illustrations from my hands-on cybersecurity lab tutorials on Medium.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="kicker">Medium Blog Artwork</p>
+    <h1>Security Lab Gallery</h1>
+    <p class="sub">Every illustration from my hands-on security lab tutorials — architectures, workflows, and step-by-step shots.</p>
+  </div>
+  <div class="hero-fade"></div>
+</header>
+
+<main>
+  <section class="gallery-head">
+    <h2>Gallery</h2>
+    <p id="count"></p>
+  </section>
+
+  <section id="gallery" class="grid" aria-label="Photo gallery"></section>
+
+  <div id="empty" class="empty" hidden>
+    <p class="empty-title">Photos are on their way.</p>
+    <p class="empty-sub">This gallery fills up as soon as the first shots land.</p>
+  </div>
+</main>
+
+<footer>
+  <p>Built on a Railway VM · <span id="year"></span></p>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous photo">&#10094;</button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-next" aria-label="Next photo">&#10095;</button>
+</div>
+
+<script src="gallery.js"></script>
+</body>
+</html>
