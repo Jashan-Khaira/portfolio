@@ -1,1 +1,58 @@
-[{"date":"2026-09-26","description":"Process pcaps with Zeek 8.0, pivot on UIDs with zeek-cut, and hunt DNS tunnelling, beaconing, and HTTP anomalies — then operationalize it with ZeekControl.","image":"photos/2026-09-26-zeek-hero.png","title":"Threat Hunting with Zeek: Turning Raw Packets into Detections","url":null},{"date":"2026-09-25","description":"Stand up MISP, ingest threat feeds, manage events and attributes, and push curated indicators to your detection stack.","image":"photos/2026-09-25-misp-hero.png","title":"Threat Intelligence with MISP: From Feeds to Actionable Intel","url":null},{"date":"2026-09-24","description":"Deploy TheHive 5 with Cortex analyzers for observable enrichment, case workflows, and collaborative incident response.","image":"photos/2026-09-24-thehive-hero.png","title":"Incident Response with TheHive 5 & Cortex: Case Management That Scales","url":null},{"date":"2026-09-23","description":"Deploy Velociraptor for enterprise-wide digital forensics — write VQL hunts, collect artifacts, and respond at scale.","image":"photos/2026-09-23-velociraptor-hero.webp","title":"DFIR with Velociraptor: Hunting Across the Fleet with VQL","url":null},{"date":"2026-09-22","description":"Pair Suricata IDS with the Wazuh SIEM for end-to-end attack detection — rules, alerts, and dashboards from scratch.","image":"photos/2026-09-22-wazuh-misc.webp","title":"IDS & SIEM with Wazuh and Suricata: Detect Attacks in Your Home Lab","url":null},{"date":"2026-09-21","description":"Build a cloud-native SOC on Microsoft Sentinel — connect Entra ID, write analytics rules, and automate response with playbooks.","image":"photos/2026-09-21-sentinel-hero.png","title":"Cloud SOC with Microsoft Sentinel: SIEM for the Azure Era","url":null},{"date":"2026-09-20","description":"Hands-on firewall lab covering policy design, NAT, threat prevention blades, and traffic flow analysis.","image":"photos/2026-09-20-checkpoint-hero.webp","title":"Next-Gen Firewall Lab: Check Point Security in Practice","url":null}]
+[
+  {
+    "date": "2026-09-27",
+    "title": "VLAN Segmentation with OPNsense: Your Home Network, Divided and Conquered",
+    "description": "Install OPNsense in a VM, carve out guest and IoT VLANs, serve DHCP with KEA, and enforce default-deny firewall isolation \u2014 all hands-on.",
+    "image": "photos/2026-09-27-opnsense-vlan-hero.webp",
+    "url": null
+  },
+  {
+    "date": "2026-09-26",
+    "description": "Process pcaps with Zeek 8.0, pivot on UIDs with zeek-cut, and hunt DNS tunnelling, beaconing, and HTTP anomalies \u2014 then operationalize it with ZeekControl.",
+    "image": "photos/2026-09-26-zeek-hero.png",
+    "title": "Threat Hunting with Zeek: Turning Raw Packets into Detections",
+    "url": null
+  },
+  {
+    "date": "2026-09-25",
+    "description": "Stand up MISP, ingest threat feeds, manage events and attributes, and push curated indicators to your detection stack.",
+    "image": "photos/2026-09-25-misp-hero.png",
+    "title": "Threat Intelligence with MISP: From Feeds to Actionable Intel",
+    "url": null
+  },
+  {
+    "date": "2026-09-24",
+    "description": "Deploy TheHive 5 with Cortex analyzers for observable enrichment, case workflows, and collaborative incident response.",
+    "image": "photos/2026-09-24-thehive-hero.png",
+    "title": "Incident Response with TheHive 5 & Cortex: Case Management That Scales",
+    "url": null
+  },
+  {
+    "date": "2026-09-23",
+    "description": "Deploy Velociraptor for enterprise-wide digital forensics \u2014 write VQL hunts, collect artifacts, and respond at scale.",
+    "image": "photos/2026-09-23-velociraptor-hero.webp",
+    "title": "DFIR with Velociraptor: Hunting Across the Fleet with VQL",
+    "url": null
+  },
+  {
+    "date": "2026-09-22",
+    "description": "Pair Suricata IDS with the Wazuh SIEM for end-to-end attack detection \u2014 rules, alerts, and dashboards from scratch.",
+    "image": "photos/2026-09-22-wazuh-misc.webp",
+    "title": "IDS & SIEM with Wazuh and Suricata: Detect Attacks in Your Home Lab",
+    "url": null
+  },
+  {
+    "date": "2026-09-21",
+    "description": "Build a cloud-native SOC on Microsoft Sentinel \u2014 connect Entra ID, write analytics rules, and automate response with playbooks.",
+    "image": "photos/2026-09-21-sentinel-hero.png",
+    "title": "Cloud SOC with Microsoft Sentinel: SIEM for the Azure Era",
+    "url": null
+  },
+  {
+    "date": "2026-09-20",
+    "description": "Hands-on firewall lab covering policy design, NAT, threat prevention blades, and traffic flow analysis.",
+    "image": "photos/2026-09-20-checkpoint-hero.webp",
+    "title": "Next-Gen Firewall Lab: Check Point Security in Practice",
+    "url": null
+  }
+]
