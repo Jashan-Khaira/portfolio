@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-09-29",
+    "title": "Security Onion Home SOC Lab: Import a PCAP and Investigate Real Alerts",
+    "description": "Install the Security Onion Import node in one VM, feed it a real-world malware-traffic PCAP, triage Suricata alerts, and pivot into full packet capture.",
+    "image": "photos/2026-09-29-security-onion-hero.webp",
+    "url": null
+  },
+  {
     "date": "2026-09-28",
     "title": "YARA Malware Triage Lab: Write Your First Detection Rules from Scratch",
     "description": "Install YARA on Ubuntu, write detection rules, and test them safely with the EICAR file — a hands-on malware triage lab.",
