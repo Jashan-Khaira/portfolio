@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-01",
+    "title": "Deploy a Cowrie SSH Honeypot: Let Attackers Hack You (Safely) and Learn Their Tricks",
+    "description": "Install Cowrie the official pip way, dress it up as a tempting Linux server, and mine its JSON logs for attacker IPs, password sprays, commands, and malware downloads.",
+    "image": "photos/2026-10-01-cowrie-hero.webp",
+    "url": null
+  },
+  {
     "date": "2026-09-30",
     "title": "Sigma Rules \u2014 Build Your Own Detection Engineering Lab: Write Once, Detect Everywhere",
     "description": "Install the official Sigma CLI, write an encoded-PowerShell detection rule, and convert it into Splunk, Elastic, Sentinel, and QRadar queries.",
