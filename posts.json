@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-02",
+    "title": "Falco Runtime Security Lab: Catch a Shell in a Container the Second It Spawns",
+    "description": "Install Falco with the modern eBPF driver, trigger safe test alerts, read them like an analyst, and write your first custom runtime detection rule.",
+    "image": "photos/2026-10-02-falco-hero.webp",
+    "url": null
+  },
+  {
     "date": "2026-10-01",
     "title": "Deploy a Cowrie SSH Honeypot: Let Attackers Hack You (Safely) and Learn Their Tricks",
     "description": "Install Cowrie the official pip way, dress it up as a tempting Linux server, and mine its JSON logs for attacker IPs, password sprays, commands, and malware downloads.",
