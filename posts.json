@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-06",
+    "title": "LimaCharlie Cloud EDR Lab: Enroll a Sensor, Hunt the Timeline, and Write Your First D&R Rule",
+    "description": "Enroll a Linux sensor into a free LimaCharlie org, explore live endpoint telemetry, enable the Sigma add-on, and hand-write a Detection & Response rule you trigger yourself.",
+    "image": "photos/2026-10-06-limacharlie-edr-hero.png",
+    "url": null
+  },
+  {
     "date": "2026-10-05",
     "title": "WireGuard VPN Lab: Build Your Own Encrypted Tunnel from Scratch",
     "description": "Install WireGuard the official way, swap SSH-style key pairs, and bring up a cryptokey-routed VPN tunnel between two Ubuntu machines.",
