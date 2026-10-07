@@ -1,84 +1,21 @@
 [
   {
-    "date": "2026-10-07",
-    "title": "\ud83e\uddea Atomic Red Team Lab: Safely Simulate Adversary Techniques and Test Your Detections",
-    "description": "Install Red Canary Atomic Red Team on an isolated VM, run safe MITRE ATT&CK techniques, and prove your detections actually fire.",
-    "image": "photos/2026-10-07-atomic-red-team-hero.png",
-    "url": null
-  },
-  {
-    "date": "2026-10-06",
-    "title": "LimaCharlie Cloud EDR Lab: Enroll a Sensor, Hunt the Timeline, and Write Your First D&R Rule",
-    "description": "Enroll a Linux sensor into a free LimaCharlie org, explore live endpoint telemetry, enable the Sigma add-on, and hand-write a Detection & Response rule you trigger yourself.",
-    "image": "photos/2026-10-06-limacharlie-edr-hero.png",
-    "url": null
-  },
-  {
-    "date": "2026-10-05",
-    "title": "WireGuard VPN Lab: Build Your Own Encrypted Tunnel from Scratch",
-    "description": "Install WireGuard the official way, swap SSH-style key pairs, and bring up a cryptokey-routed VPN tunnel between two Ubuntu machines.",
-    "image": "photos/2026-10-05-wireguard-hero.png",
-    "url": null
-  },
-  {
-    "date": "2026-10-04",
-    "title": "Greenbone Vulnerability Scanning Lab: Find It Before Attackers Do",
-    "description": "Deploy Greenbone Community Edition the official Docker way, wait for the feeds, scan a lab target you own, and triage your first report by severity, detection quality, and exposure.",
-    "image": "photos/2026-10-04-greenbone-vuln-scan-hero.webp",
-    "url": null
-  },
-  {
-    "date": "2026-10-03",
-    "title": "FleetDM + osquery Endpoint Visibility Lab: Ask Your Fleet Anything with SQL",
-    "description": "Stand up Fleet with fleetctl preview, enroll an Ubuntu host with osquery, run live SQL queries, then schedule detections and policies mapped to MITRE ATT&CK.",
-    "image": "photos/2026-10-03-fleetdm-osquery-hero.webp",
-    "url": null
-  },
-  {
-    "date": "2026-10-02",
-    "title": "Falco Runtime Security Lab: Catch a Shell in a Container the Second It Spawns",
-    "description": "Install Falco with the modern eBPF driver, trigger safe test alerts, read them like an analyst, and write your first custom runtime detection rule.",
-    "image": "photos/2026-10-02-falco-hero.webp",
-    "url": null
-  },
-  {
-    "date": "2026-10-01",
-    "title": "Deploy a Cowrie SSH Honeypot: Let Attackers Hack You (Safely) and Learn Their Tricks",
-    "description": "Install Cowrie the official pip way, dress it up as a tempting Linux server, and mine its JSON logs for attacker IPs, password sprays, commands, and malware downloads.",
-    "image": "photos/2026-10-01-cowrie-hero.webp",
-    "url": null
-  },
-  {
-    "date": "2026-09-30",
-    "title": "Sigma Rules \u2014 Build Your Own Detection Engineering Lab: Write Once, Detect Everywhere",
-    "description": "Install the official Sigma CLI, write an encoded-PowerShell detection rule, and convert it into Splunk, Elastic, Sentinel, and QRadar queries.",
-    "image": "photos/2026-09-30-sigma-detection-hero.webp",
-    "url": null
-  },
-  {
-    "date": "2026-09-29",
-    "title": "Security Onion Home SOC Lab: Import a PCAP and Investigate Real Alerts",
-    "description": "Install the Security Onion Import node in one VM, feed it a real-world malware-traffic PCAP, triage Suricata alerts, and pivot into full packet capture.",
-    "image": "photos/2026-09-29-security-onion-hero.webp",
-    "url": null
-  },
-  {
     "date": "2026-09-28",
     "title": "YARA Malware Triage Lab: Write Your First Detection Rules from Scratch",
-    "description": "Install YARA on Ubuntu, write detection rules, and test them safely with the EICAR file \u2014 a hands-on malware triage lab.",
+    "description": "Install YARA on Ubuntu, write detection rules, and test them safely with the EICAR file — a hands-on malware triage lab.",
     "image": "photos/2026-09-28-yara-hero.webp",
     "url": null
   },
   {
     "date": "2026-09-27",
     "title": "VLAN Segmentation with OPNsense: Your Home Network, Divided and Conquered",
-    "description": "Install OPNsense in a VM, carve out guest and IoT VLANs, serve DHCP with KEA, and enforce default-deny firewall isolation \u2014 all hands-on.",
+    "description": "Install OPNsense in a VM, carve out guest and IoT VLANs, serve DHCP with KEA, and enforce default-deny firewall isolation — all hands-on.",
     "image": "photos/2026-09-27-opnsense-vlan-hero.webp",
     "url": null
   },
   {
     "date": "2026-09-26",
-    "description": "Process pcaps with Zeek 8.0, pivot on UIDs with zeek-cut, and hunt DNS tunnelling, beaconing, and HTTP anomalies \u2014 then operationalize it with ZeekControl.",
+    "description": "Process pcaps with Zeek 8.0, pivot on UIDs with zeek-cut, and hunt DNS tunnelling, beaconing, and HTTP anomalies — then operationalize it with ZeekControl.",
     "image": "photos/2026-09-26-zeek-hero.png",
     "title": "Threat Hunting with Zeek: Turning Raw Packets into Detections",
     "url": null
@@ -99,21 +36,21 @@
   },
   {
     "date": "2026-09-23",
-    "description": "Deploy Velociraptor for enterprise-wide digital forensics \u2014 write VQL hunts, collect artifacts, and respond at scale.",
+    "description": "Deploy Velociraptor for enterprise-wide digital forensics — write VQL hunts, collect artifacts, and respond at scale.",
     "image": "photos/2026-09-23-velociraptor-hero.webp",
     "title": "DFIR with Velociraptor: Hunting Across the Fleet with VQL",
     "url": null
   },
   {
     "date": "2026-09-22",
-    "description": "Pair Suricata IDS with the Wazuh SIEM for end-to-end attack detection \u2014 rules, alerts, and dashboards from scratch.",
+    "description": "Pair Suricata IDS with the Wazuh SIEM for end-to-end attack detection — rules, alerts, and dashboards from scratch.",
     "image": "photos/2026-09-22-wazuh-misc.webp",
     "title": "IDS & SIEM with Wazuh and Suricata: Detect Attacks in Your Home Lab",
     "url": null
   },
   {
     "date": "2026-09-21",
-    "description": "Build a cloud-native SOC on Microsoft Sentinel \u2014 connect Entra ID, write analytics rules, and automate response with playbooks.",
+    "description": "Build a cloud-native SOC on Microsoft Sentinel — connect Entra ID, write analytics rules, and automate response with playbooks.",
     "image": "photos/2026-09-21-sentinel-hero.png",
     "title": "Cloud SOC with Microsoft Sentinel: SIEM for the Azure Era",
     "url": null
